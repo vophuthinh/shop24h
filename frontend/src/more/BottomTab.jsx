@@ -8,7 +8,7 @@
     import LocalMallIcon from '@material-ui/icons/LocalMall';
     import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
     import PersonIcon from '@material-ui/icons/Person';
-    import DehazeIcon from '@material-ui/icons/Dehaze';
+    import DehazeIcon from '@material-ui/icons/Dehaze'; 
     
     const BottomTab = () => {
 
