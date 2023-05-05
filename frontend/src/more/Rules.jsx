@@ -8,7 +8,7 @@ import Footer from '../Footer';
 const Rules = () => {
     return (
         <>
-        <MetaData title="Điều khoản" />
+        <MetaData title="Rules" />
         <Header />
         <div className='rules' style={{
             padding:"50px 30px",

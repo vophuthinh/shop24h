@@ -8,7 +8,7 @@ import BottomTab from "./BottomTab";
 const Contact = () => {
   return (
     <>
-      <MetaData title="Liên hệ" />
+      <MetaData title="Contact" />
       <Header />
       <div
         className="contact__main "

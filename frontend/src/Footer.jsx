@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
       {/* Footer 4th part */}
        <div className="footer__3rd__part">
-            <h5>Dịch vụ</h5>
+            <h5>Service</h5>
              {/* <Link to="/creator"><h3>Create A Seller Account</h3></Link> */}
              {/* <Link to="/creator"><h3>Seller Rules</h3></Link> */}
              <Link to="/Products"><h3>Xem cửa hàng</h3></Link>

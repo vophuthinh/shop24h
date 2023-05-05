@@ -144,8 +144,7 @@ const Header = () => {
                 cursor: "pointer",
               }}
             />
-            {/* <div className="textLogo"><h1>KIANA</h1></div> */}
-            
+  
           </Link>
         </div>
         {/* Topbar Middle */}

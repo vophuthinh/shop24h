@@ -15,7 +15,7 @@ const About = () => {
         <Loading />
       ) : (
         <>
-          <MetaData title="Giới thiệu" />
+          <MetaData title="About" />
           <div>
             <Header />
             <div

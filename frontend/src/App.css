@@ -38,7 +38,6 @@ h1,h2,h3,h4,h5,h6,span,p,strong{
 h6{
   font-size: 15px;
   color: white;
-  margin-top: 5px;
 }
 .space__beetween{
   display: flex;

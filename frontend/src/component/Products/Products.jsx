@@ -109,7 +109,7 @@ const Products = ({ match }) => {
         <Loading />
       ) : (
         <>
-          <MetaData title="Sản phẩm" />
+          <MetaData title="Shop" />
           <Header />
           <div>
             <div style={{ justifyContent: "center", alignItems: "center" }}>
