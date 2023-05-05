@@ -8,7 +8,7 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import PeopleIcon from "@material-ui/icons/People";
 import RateReviewIcon from "@material-ui/icons/RateReview";
-import logo from "../../Assets/logo.webp";
+import logo from "../../Assets/logo.png";
 import AccountBalanceWalletOutlinedIcon from "@material-ui/icons/AccountBalanceWalletOutlined";
 
 const Sidebar = () => {
@@ -19,7 +19,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Link to="/">
-        <img src={logo} alt="Ecommerce" />
+        <img src={logo} alt="Shop24h" />
       </Link>
       <Link to="/dashboard">
         <p className="Dashboard__item" onClick={button}>

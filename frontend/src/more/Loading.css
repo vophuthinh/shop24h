@@ -95,7 +95,7 @@ input:checked ~ label{
   height: 80px;
   transform: rotate(45deg);
   transform-origin: 40px 40px;
-  background-color: rgb(4, 203, 187);
+  background-color: #71ce0e;
   border-radius: 15px;
 }
 .lds-heart div {

@@ -19,8 +19,8 @@ const Support = ({history}) => {
           console.log(result.text);
           setDone(true)
       }, (error) => {
-          console.log(error.text);
-      });
+            console.log(error.text);
+        });
 
     }
 
@@ -72,13 +72,13 @@ const Support = ({history}) => {
                    name='user__subject'
                    />
                    <input type="email" placeholder='Email của bạn ...' required style={{
-                       border:"none",
-                       outline:"none",
-                       width:"100%",
-                       borderBottom:"1px solid #3BB77E",
-                       margin:"10px 0",
-                       fontSize:"1.2vmax",
-                       height:"40px"
+                        border:"none",
+                        outline:"none",
+                        width:"100%",
+                        borderBottom:"1px solid #3BB77E",
+                        margin:"10px 0",
+                        fontSize:"1.2vmax",
+                        height:"40px"
                    }}/>
                    <textarea cols="30" rows="5" required placeholder='Lời nhắn ...'
                    style={{

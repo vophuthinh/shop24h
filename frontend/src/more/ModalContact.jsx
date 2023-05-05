@@ -74,14 +74,14 @@ const UserData = () => {
           />
          
         ))} */}
-      
+{/*       
           <SpeedDialAction 
           key={"WhatsApp"}
           icon={<WhatsAppIcon />}
             tooltipTitle={"WhatsApp"}
             tooltipOpen={false}
-            href="https://call.whatsapp.com/voice/TVh9QBu0E8WfGXgHsG8X3S"
-          />
+            href="https://web.whatsapp.com/"
+          /> */}
        
       
           <SpeedDialAction 
@@ -89,7 +89,7 @@ const UserData = () => {
           icon={<FacebookIcon />}
             tooltipTitle={"Message"}
             tooltipOpen={false}
-            href="https://m.me/212296270204994"
+            href="https://www.facebook.com/vox.phus.thijnh/"
           />
        
       </SpeedDial>
