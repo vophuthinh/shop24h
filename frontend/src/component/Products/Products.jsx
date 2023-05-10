@@ -16,6 +16,7 @@ import bg from "../../Assets/backgroundHome1.webp";
 
 import bg3 from "../../Assets/backgroundHome2.jpg";
 import bg4 from "../../Assets/productBanner/NEW_ARRIVALS.png";
+import { Grid } from "@material-ui/core";
 
 const categories = ["Áo hoodie", "Others"];
 const styleman = [
@@ -162,9 +163,12 @@ const Products = ({ match }) => {
                  
                 }}
               >
+              <Grid margin= {2}>
                 <Typography style={{ fontSize: "1.2vmax", padding: "5px", textAlign:"center" }}>
                   DANH MỤC
                 </Typography>
+              </Grid>
+
 
                 {/* <ul className="categoryBox">
                   <li className="category-link" onClick={() => setCategory()}>
