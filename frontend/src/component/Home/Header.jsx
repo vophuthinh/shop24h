@@ -239,25 +239,25 @@ const Header = () => {
             }}
           >
             <Link to="/">
-              <li>Trang chủ</li>
+              <li>HOME</li>
             </Link>
             <Link to="/about">
-              <li>Giới thiệu</li>
+              <li>ABOUT</li>
             </Link>
             <Link to="/Products">
-              <li>Sản phẩm</li>
+              <li>SHOP</li>
             </Link>
             {/* <Link to="/creator">
             <li>Become A Seller</li>
           </Link> */}
             <Link to="/faq">
-              <li>Điều khoản người dùng</li>
+              <li>RULES</li>
             </Link>
             <Link to="/contact">
-              <li>Liên hệ</li>
+              <li>CONTACT</li>
             </Link>
             <Link to="/creator">
-              <li>Blog</li>
+              <li>BLOG</li>
             </Link>
           </ul>
         </div>

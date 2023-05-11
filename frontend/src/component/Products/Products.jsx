@@ -11,13 +11,7 @@ import Typography from "@material-ui/core/Typography";
 // import { useAlert } from "react-alert";
 import MetaData from "../../more/Metadata";
 import BottomTab from "../../more/BottomTab";
-import Carousel from "react-material-ui-carousel";
-import bg from "../../Assets/backgroundHome1.webp";
-
-import bg3 from "../../Assets/backgroundHome2.jpg";
-import bg4 from "../../Assets/productBanner/NEW_ARRIVALS.png";
 import { Grid } from "@material-ui/core";
-
 const categories = ["Áo hoodie", "Others"];
 const styleman = [
   "Áo thun nam",
@@ -113,21 +107,6 @@ const Products = ({ match }) => {
           <MetaData title="Shop" />
           <Header />
           <div>
-            <div style={{ justifyContent: "center", alignItems: "center" }}>
-              <div className="productBanner">
-                <Carousel
-                  style={{
-                    overflow: "hidden",
-                    height: "10vh",
-                  }}
-                >
-                  <img src={bg} className="bgImgi" />
-
-                  <img src={bg3} className="bgImgi" />
-                  <img src={bg4} className="bgImgi" />
-                </Carousel>
-              </div>
-            </div>
             {products.length === 0 ? (
               ""
             ) : (
@@ -135,14 +114,14 @@ const Products = ({ match }) => {
                 style={{
                   textAlign: "center",
                   borderBottom: "1px solid rgba(21,21,21,0.5)",
-                  width: "20vmax",
-                  fontSize: "1.4vmax",
-                  fontFamily: "Poppins,sans-serif",
-                  margin: "3vmax auto",
+                  width: "13vmax",
+                  fontSize: "2.4vmax",
+                  fontFamily: "Roboto",
+                  margin: "20px auto",
                   color: "rgb(0, 0, 0, 0.7)",
                 }}
               >
-                SẢN PHẨM
+                Products
               </h2>
             )}
             <div
@@ -164,7 +143,7 @@ const Products = ({ match }) => {
                 }}
               >
               <Grid margin= {2}>
-                <Typography style={{ fontSize: "1.2vmax", padding: "5px", textAlign:"center" }}>
+                <Typography style={{ fontSize: "1.2vmax", padding: "5px", textAlign:"center", fontFamily: "Roboto", }}>
                   DANH MỤC
                 </Typography>
               </Grid>

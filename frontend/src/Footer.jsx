@@ -18,8 +18,8 @@ const Footer = () => {
             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
-          <strong>Địa chỉ:</strong>
-          <h6>80 Đinh Bộ Lĩnh, phường 26, quận Bình Thạnh, TP.HCM</h6>
+          <strong>Address:</strong>
+          <h6>80 Đinh Bo Linh, phuong 26, quan Binh Thanh, TP.HCM</h6>
         </div>
 
         <div className="location flex py__10">
@@ -48,7 +48,7 @@ const Footer = () => {
           >
             <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
           </svg>
-          <strong>Sdt:</strong>
+          <strong>Phone number:</strong>
           <h6>+84 86 863 9882</h6>
         </div>
 
@@ -65,7 +65,7 @@ const Footer = () => {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
           </svg>
           <strong>Time:</strong>
-          <h6>10:00 AM - 10:00 PM (các ngày trong tuần)</h6>
+          <h6>10:00 AM - 10:00 PM (days of week)</h6>
         </div>
       </div>
       <div className="app" style={{
@@ -82,9 +82,9 @@ const Footer = () => {
       <div className="mobile">
         <div className="footer__2nd__part">
              <h5>Account</h5>
-             <Link to="/login"><h3>Đăng nhập</h3></Link>         
-             <Link to="/login"><h3>Đăng ký</h3></Link>
-             <Link to="/password/forgot"><h3>Quên mật khẩu</h3></Link>
+             <Link to="/login"><h3>Log in</h3></Link>         
+             <Link to="/login"><h3>Sign up</h3></Link>
+             <Link to="/password/forgot"><h3>Forgot password</h3></Link>
         </div>
         {/* Footer 3rd part */}
         <div className="footer__2nd__part">
@@ -96,18 +96,16 @@ const Footer = () => {
       {/* Footer 4th part */}
        <div className="footer__3rd__part">
             <h5>Service</h5>
-             {/* <Link to="/creator"><h3>Create A Seller Account</h3></Link> */}
-             {/* <Link to="/creator"><h3>Seller Rules</h3></Link> */}
-             <Link to="/Products"><h3>Xem cửa hàng</h3></Link>
-             <Link to="/support"><h3>Báo cáo</h3></Link>
+             <Link to="/Products"><h3>View store</h3></Link>
+             <Link to="/support"><h3>Report</h3></Link>
              <Link to="/creator"><h3>Blog</h3></Link>
        </div>
       {/* Footer 5th part */}
       <div className="footer__4th__part">
       <h5>Rules</h5>
       <Link to="/faq"><h3>FAQ</h3></Link>
-      <Link to="/contact"><h3>Liên hệ</h3></Link>
-      <Link to="/about"><h3>Giới thiệu</h3></Link>
+      <Link to="/contact"><h3>Contact</h3></Link>
+      <Link to="/about"><h3>About</h3></Link>
       <Link to="/creator"><h3>Live Chat</h3></Link>
         </div>
         </div>

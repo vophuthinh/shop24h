@@ -35,7 +35,7 @@ button.Home__button {
   width: 20vmax;
   padding: 1vmax;
   font-size: 1.4vmax;
-  margin: 5vmax auto;
+  margin: -3vmax auto;
   color: rgb(0, 0, 0, 0.7);
  
 }
@@ -139,8 +139,8 @@ button.Home__button {
   border-bottom: 1px solid rgba(21, 21, 21, 0.5);
   width: 20vmax;
   padding: 1vmax;
-  font-size: 1.4vmax;
-  margin: 5vmax auto;
+  font-size: 30px;
+  margin: -2vmax auto;
   color: rgb(0, 0, 0, 0.7);
 }
 .container {

@@ -57,7 +57,7 @@ const Home = () => {
             </Carousel>
           </div>
           <div style={{ paddingTop: "5vmax" }}>
-            <h2 className="homeHeading">SẢN PHẨM NỔI BẬT</h2>
+            <h2 className="homeHeading">FEATURED PRODUCT</h2>
           </div>
 
           <div className="container" id="container">
@@ -66,7 +66,6 @@ const Home = () => {
                 <ProductCard key={product._id} product={product} />
               ))}
           </div>
-         
           <ToastContainer
             position="bottom-center"
             autoClose={5000}

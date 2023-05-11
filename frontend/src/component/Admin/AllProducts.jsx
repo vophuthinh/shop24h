@@ -51,7 +51,7 @@ useEffect(() => {
 
 
 const columns = [
-    { field: "id", headerName: "ID", minWidth: 200, flex: 0.1 },
+    // { field: "id", headerName: "ID", minWidth: 200, flex: 0.1 },
 
     {
       field: "name",
